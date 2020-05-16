@@ -13,6 +13,10 @@
         position: absolute;
       }
 
+      #image-attribution {
+        text-align: right;
+      }
+
       .image-segment:hover {
         cursor: pointer;
       }
@@ -148,7 +152,17 @@
         onclick="open_modal(this);"
       />
     </map>
-
+    <!-- licence attribution -->
+    <div id="image-attribution">
+      <a
+        href="https://commons.wikimedia.org/wiki/File:Blausen_0604_LargeIntestine2.png"
+        title="The Large Intestine"
+        >Image</a
+      >
+      by BruceBlaus /
+      <a href="https://creativecommons.org/licenses/by/3.0">CC BY</a> / Adapted
+      for educational use
+    </div>
     <!-- the modal -->
     <div id="modal" class="modal">
       <!-- modal content -->
